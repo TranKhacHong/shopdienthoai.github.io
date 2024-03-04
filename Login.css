@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: rgb(57, 55, 55);
+    display:flex;
+    justify-content: space-around;
+    height:80px;
+}
+.header .search{
+    margin-top: 18px;
+}
+.name-shop{
+    padding-top: 12px;
+}
+.header .search input{
+    width:250px;
+    height:30px;
+    border:none;
+    padding:0 10px;
+    border-radius: 5px;
+    outline: none;
+
+}
+.header .search{
+    position:relative;
+}
+.header .search img{
+    position:absolute;
+    left:220px;
+    top:7px;
+}
+.header .formlogin ul {
+     display:flex;
+     margin-top: 25px;
+     list-style: none;
+}
+.header .formlogin ul li a {
+    margin:8px;
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    background-color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+.header .formlogin ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    transition:all 0.3s;
+}
+.menu{
+    background-color: rgb(78, 70, 70);
+    width:100%;
+    height:50px;
+}
+.menu .sub-menu ul{
+    display:flex;
+    list-style: none;
+    padding-top:15px;
+    justify-content: center;
+}
+.menu .sub-menu ul li a{
+    text-decoration: none;
+    padding:14px;
+    color:white;
+    font-size:18px;
+    margin:0 10px;
+}
+.menu .sub-menu ul li a:hover{
+    color: red;
+    transition:all 0.3s;
+}
+.wraper{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    max-width:400px;
+    background: linear-gradient(rgb(114, 107, 107),rgb(91, 89, 89));
+    flex-grow: 1;
+    padding:30px 30px 40px;
+    border-radius: 2.25rem;
+    box-shadow: 0px 0px 17px 2px rgba(233, 226, 226, 0.82);  
+}
+.login{
+    font-size: 25px;
+    color:aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.form-input{
+    background:transparent;
+    border:0;
+    outline:0;
+    color:#f5f5f5;
+    padding:10px;
+    border-radius: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+    width:350px;
+
+}
+.form-input::placeholder{
+    color:#f5f5f5;
+
+}
+.form-submit{
+    background-color:blue;
+    cursor: pointer;
+    border:1px solid #f5f5f5;
+    color:#fff;
+    width:100%;
+    text-transform: uppercase;
+    padding:6px 10px;
+    align-items: center;
+    margin-top:20px;
+    border-radius: 2.25rem;
+}
+.pas{
+    text-align: center;
+    margin-top: 10px;
+    width:100%;
+    background-color:blue;
+    border: 1px solid #f5f5f5;
+    border-radius: 2.25rem;
+    padding:4px 10px;
+    font-size: 15px;
+}
+.pas a{
+    color:white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color:darkgrey ;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+.footer .contact{
+    margin-top: 40px;
+    padding:10px 20px;
+    margin-left: 100px;
+}
+.footer .contact h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer .contact a img{
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.footer .diachi{
+    margin-top:40px;
+    width:600px;
+}
+.footer .diachi h2{
+    margin-bottom: 10px;
+}
+.footer .diachi span{
+    padding:20px 0;
+}
+.footer-bottom{
+    background-color: dimgray;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding-top: 15px;
+}

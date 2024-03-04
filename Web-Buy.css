@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: rgb(57, 55, 55);
+    display:flex;
+    justify-content: space-around;
+    height:80px;
+}
+.header .search{
+    margin-top: 18px;
+}
+.name-shop{
+    padding-top: 12px;
+}
+.header .search input{
+    width:250px;
+    height:30px;
+    border:none;
+    padding:0 10px;
+    border-radius: 5px;
+    outline: none;
+
+}
+.header .search{
+    position:relative;
+}
+.header .search img{
+    position:absolute;
+    left:220px;
+    top:7px;
+}
+.header .form-login ul {
+     display:flex;
+     margin-top: 25px;
+     list-style: none;
+}
+.header .form-login ul li a {
+    margin:8px;
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    background-color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+.header .form-login ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    transition:all 0.3s;
+}
+.menu{
+    background-color: rgb(78, 70, 70);
+    width:100%;
+    height:50px;
+}
+.menu .sub-menu ul{
+    display:flex;
+    list-style: none;
+    padding-top:15px;
+    justify-content: center;
+}
+.menu .sub-menu ul li a{
+    text-decoration: none;
+    padding:14px;
+    color:white;
+    font-size:18px;
+    margin:0 10px;
+}
+.menu .sub-menu ul li a:hover{
+    color: red;
+    transition:all 0.3s;
+}
+.buy{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.buy h3{
+    margin: 10px;
+
+}
+.buy button{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    cursor:pointer;
+}
+.footer{
+    background-color:darkgrey ;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 400px;
+
+}
+.footer .contact{
+    margin-top: 40px;
+    padding:10px 20px;
+    margin-left: 100px;
+}
+.footer .contact h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer .contact a img{
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.footer .diachi{
+    margin-top:40px;
+    width:600px;
+}
+.footer .diachi h2{
+    margin-bottom: 10px;
+}
+.footer .diachi span{
+    padding:20px 0;
+}
+.footer-bottom{
+    background-color: dimgray;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding-top: 15px;
+}

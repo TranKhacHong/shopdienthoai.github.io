@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: rgb(57, 55, 55);
+    display:flex;
+    justify-content: space-around;
+    height:80px;
+}
+.header .search{
+    margin-top: 18px;
+}
+.name-shop{
+    padding-top: 12px;
+}
+.header .search input{
+    width:250px;
+    height:30px;
+    border:none;
+    padding:0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.header .search{
+    position:relative;
+}
+.header .search img{
+    position:absolute;
+    left:220px;
+    top:7px;
+}
+.header .form-login ul {
+     display:flex;
+     margin-top: 25px;
+     list-style: none;
+}
+.header .form-login ul li a {
+    margin:8px;
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    background-color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+.header .form-login ul li a img{
+    border:none;
+    border-radius: 10px;
+}
+.header .form-login ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    transition:all 0.3s;
+}
+.menu{
+    background-color: rgb(78, 70, 70);
+    width:100%;
+    height:50px;
+}
+.menu .sub-menu ul{
+    display:flex;
+    list-style: none;
+    padding-top:15px;
+    justify-content: center;
+}
+.menu .sub-menu ul li a{
+    text-decoration: none;
+    padding:14px;
+    color:white;
+    font-size:18px;
+    margin:0 10px;
+}
+.menu .sub-menu ul li a:hover{
+    color: red;
+    transition:all 0.3s;
+}
+
+.wrapper{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right:130px;
+    background:linear-gradient(50deg,rgb(62, 59, 59),rgb(186, 160, 160));
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height:800px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color:rgb(233, 214, 214);
+}
+.list-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.list-wrapper .item{
+    background-color: antiquewhite;
+    width: 200px;
+    height:250px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.list-wrapper .item img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.list-wrapper .item img:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
+}
+.list-wrapper .item .name,.price{
+    text-align: center;
+    font-size: 18px;
+    padding:5px 0 ;
+}
+
+.list-wrapper .item form button{
+    margin:10px 50px;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.list-wrapper .item form button:hover{
+    background-color: rgb(48, 13, 225);
+    transition: all 0.3s;
+}
+.footer{
+    background-color:darkgrey ;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+.footer .contact{
+    margin-top: 40px;
+    padding:10px 20px;
+    margin-left: 100px;
+}
+.footer .contact h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer .contact a img{
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.footer .diachi{
+    margin-top:40px;
+    width:600px;
+}
+.footer .diachi h2{
+    margin-bottom: 10px;
+}
+.footer .diachi span{
+    padding:20px 0;
+}
+.footer-bottom{
+    background-color: dimgray;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding-top: 15px;
+}
